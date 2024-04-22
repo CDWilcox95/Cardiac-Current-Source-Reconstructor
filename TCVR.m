@@ -9,8 +9,10 @@ new_H_find=false;
 new_fwdmap_gen=false;
 new_G_map=false;
 
+%% System Paramaters
 num_recon_src=1;   % Number of dipole sources to reconstruct
-
+L=32;              % Total number of system electrodes
+elec_layers=2;     % Number of electrode layers
 
 %% Load in Data
 load("C:\Users\cdwil\Desktop\EIT_EKG_Projects\Cardiac_Imaging\Data\Subject63_22_06_29\sbj63_152kHz_prone_0mA_22_06_29_16_27_43.mat");   % Only ECG Data (No EIT Data -- 0 Amp Currents applied)
